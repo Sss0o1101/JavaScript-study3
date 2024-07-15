@@ -43,4 +43,7 @@ console.log(`My name is ${fname} ${lname}, call me ${fname}!`); //テンプレ�
 
 //・文字列2
 //文字列と数値に対して+記号を使ったときの挙動について見ていきます。
+const n = prompt("Any number");
+
+console.log(Number(n) + 10);
 
